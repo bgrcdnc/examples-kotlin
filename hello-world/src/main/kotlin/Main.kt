@@ -1,5 +1,10 @@
 package org.example
 
-fun main() {
-    print("Hello, World!")
+fun main(args: Array<String>) {
+    println("Hello, World!\n")
+
+    print("Langs supplied by arguments: ")
+    for (lang in args) {
+        print("$lang ")
+    }
 }
