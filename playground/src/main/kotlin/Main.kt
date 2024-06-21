@@ -2,6 +2,28 @@ package org.example
 
 class EntryPoint(val name: String, val func: () -> Unit)
 
+// simple function to get user credentials and salute
+fun nameNSurname() {
+    print("What is your name? < ")
+    val name: String = readln()
+    print("What is your surname, $name? < ")
+    val surname: String = readln()
+    print("What is your age, $name? < ")
+    val age: Int = readln().toInt() // TODO: validate input before casting
+    print("What is your gender, $name? < ")
+    val gender: String = readln()
+
+    print("Hello, $name $surname; aged $age, gender $gender")
+}
+
+fun playingWithTypes() {
+    val name: String = "Buğra"
+    val age: Int = 27
+    val gender: Boolean = true // true: Male - false: Female
+    val nationality: String = "Turkish"
+    print("Hello, $name, $age, $gender, $nationality")
+}
+
 // A simple while loop in main() to allow user to select an entrypoint
 fun main() {
     // to keep the loop going until a proper entry is selected
@@ -9,7 +31,7 @@ fun main() {
     while (!entryDone) {
         // list of entries by custom class object
         val entries = arrayListOf(
-            EntryPoint("Name and Surname", ::nameNSurname)
+            EntryPoint("Name and Surname", ::nameNSurname), EntryPoint("Playing with Types", ::playingWithTypes)
         )
 
         // print the entries
@@ -29,25 +51,10 @@ fun main() {
             // then set the flag to terminate the loop on the next run
             entryDone = true
             // print a new line to announce the entry
-            println("Selected entry > ${entries[userEntry-1].name}")
+            println("Selected entry > ${entries[userEntry - 1].name}")
             println() // to separate the entry outputs
             // and call the entry function
             entries[userEntry - 1].func()
         } else print("Input error: Selected entry out of bounds") // print in case of user input error
     }
 }
-
-// simple function to get user credentials and salute
-fun nameNSurname() {
-    print("What is your name? < ")
-    val name: String = readln()
-    print("What is your surname, $name? < ")
-    val surname: String = readln()
-    print("What is your age, $name? < ")
-    val age: Int = readln().toInt() // TODO: validate input before casting
-    print("What is your gender, $name? < ")
-    val gender: String = readln()
-
-    print("Hello, $name $surname; aged $age, gender $gender")
-}
-
