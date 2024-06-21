@@ -8,10 +8,20 @@ fun nameNSurname() {
     val name: String = readln()
     print("What is your surname, $name? < ")
     val surname: String = readln()
-    print("What is your age, $name? < ")
-    val age: Int = readln().toInt() // TODO: validate input before casting
-    print("What is your gender, $name? < ")
-    val gender: String = readln()
+
+    var age: Int?
+    do {
+        print("What is your age, $name? < ")
+        age = readln().toIntOrNull()
+    } while (age == null)
+    var gender: String? = null
+    do {
+        print("What is your gender, $name; (m)ale or (f)emale ? < ")
+        when (readln()) {
+            "m", "M" -> gender = "Male"
+            "f", "F" -> gender = "Female"
+        }
+    } while (gender == null)
 
     print("Hello, $name $surname; aged $age, gender $gender")
 }
@@ -26,35 +36,28 @@ fun playingWithTypes() {
 
 // A simple while loop in main() to allow user to select an entrypoint
 fun main() {
-    // to keep the loop going until a proper entry is selected
-    var entryDone = false
-    while (!entryDone) {
-        // list of entries by custom class object
-        val entries = arrayListOf(
-            EntryPoint("Name and Surname", ::nameNSurname), EntryPoint("Playing with Types", ::playingWithTypes)
-        )
+    // list of entries by custom class object
+    val entries = arrayListOf(
+        EntryPoint("Name and Surname", ::nameNSurname), EntryPoint("Playing with Types", ::playingWithTypes)
+    )
 
-        // print the entries
-        var i = 1
-        println("Entry points > ")
-        for (e in entries) { // simple foreach loop to run through entry items
-            println("${i++}) ${e.name}")
-        }
-        println()
-
-        // get user input for selecting the entrypoint
-        print("Select entry point < ")
-        val userEntry: Int = readln().toInt() // TODO: validate input before casting
-
-        // if user entry index is between the first and last items in entries
-        if (userEntry > 0 && userEntry <= entries.size) {
-            // then set the flag to terminate the loop on the next run
-            entryDone = true
-            // print a new line to announce the entry
-            println("Selected entry > ${entries[userEntry - 1].name}")
-            println() // to separate the entry outputs
-            // and call the entry function
-            entries[userEntry - 1].func()
-        } else print("Input error: Selected entry out of bounds") // print in case of user input error
+    // print the entries
+    println("Entry points > ")
+    for (i in 1..entries.size) { // simple foreach loop to run through entry items
+        println("${i}) ${entries[i-1].name}")
     }
+    println()
+
+    // get user input for selecting the entrypoint
+    var userEntry: Int?
+    do {
+        print("Select entry point < ")
+        userEntry = readln().toIntOrNull()
+    } while ((userEntry == null) || (userEntry !in (1..entries.size)))
+
+    // print a new line to announce the entry
+    println("Selected entry > ${entries[userEntry - 1].name}")
+    println() // to separate the entry outputs
+    // and call the entry function
+    entries[userEntry - 1].func()
 }
