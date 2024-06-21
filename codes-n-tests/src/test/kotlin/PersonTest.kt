@@ -26,7 +26,7 @@ class PersonTest {
     @Test
     fun updateAgeTest() {
         val test = Person()
-        val change: Byte = 29
+        val change: UByte = 29u
         test.updateAge(change)
         assertTrue(
             test.getAge() == change, "Person class updateName() failed)"
@@ -37,7 +37,7 @@ class PersonTest {
     fun updateAgeByYearTest() {
         val test = Person()
         val change: Int = 1994
-        val age:Byte = ((Calendar.getInstance().get(Calendar.YEAR)).toInt() - change).toByte()
+        val age:UByte = ((Calendar.getInstance().get(Calendar.YEAR)).toInt() - change).toUByte()
         test.updateAgeByYear(change)
         assertTrue(
             test.getAge() == age, "Person class updateName() failed)"

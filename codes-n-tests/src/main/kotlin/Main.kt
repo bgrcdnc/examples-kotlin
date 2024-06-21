@@ -28,8 +28,8 @@ class Person {
         return surname
     }
 
-    private fun createAge(): Byte {
-        val age: Byte = 27
+    private fun createAge(): UByte {
+        val age: UByte = 27u
         return age
     }
 
@@ -46,7 +46,7 @@ class Person {
         return this.surname
     }
 
-    fun getAge(): Byte {
+    fun getAge(): UByte {
         return this.age
     }
 
@@ -62,19 +62,19 @@ class Person {
         this.surname = newSurname
     }
 
-    fun updateAge(newAge: Byte) {
+    fun updateAge(newAge: UByte) {
         this.age = newAge
     }
 
     fun updateAgeByYear(year: Int) {
-        this.age = ((Calendar.getInstance().get(Calendar.YEAR)).toInt() - year).toByte()
+        this.age = ((Calendar.getInstance().get(Calendar.YEAR)).toInt() - year).toUByte()
     }
 
     fun updateGender(newGender: Genders) {
         this.gender = newGender
     }
 
-    fun update(newName: String, newSurname: String, newAge: Byte, newGender: Genders) {
+    fun update(newName: String, newSurname: String, newAge: UByte, newGender: Genders) {
         this.name = newName
         this.surname = newSurname
         this.age = newAge
@@ -96,6 +96,6 @@ class Person {
 fun main() {
     val person = Person()
     println(person)
-    person.update("Neslihan", "Can Çalışkandinç", 29, Genders.Female)
+    person.update("Neslihan", "Can Çalışkandinç", 29u, Genders.Female)
     print(person)
 }
