@@ -4,75 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Update Byte -&gt; UByte">
-      <change afterPath="$PROJECT_DIR$/bin/main/Codes-N-Tests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/Hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/Nullable-N-Null.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/Numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/main/Playground.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Codes-N-Tests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Nullable-N-Null.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Playground.kt" afterDir="false" />
+    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Update: Collected all src in one project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +40,15 @@
     &quot;accountId&quot;: &quot;02df2fe3-1a3f-453b-9566-53c686ac9750&quot;
   }
 }</component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -116,6 +59,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -137,7 +81,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.toDoOptions"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -153,39 +99,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="PersonTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codes-n-tests.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codes-n-tests.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.NumbersKt">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codes-n-tests.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumbersKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NumbersKt" />
+      <module name="codes-n-tests.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PersonTest" />
+      <item itemvalue="Kotlin.NumbersKt" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.PersonTest (1)" />
-        <item itemvalue="JUnit.PersonTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,15 +161,35 @@
       <option name="project" value="LOCAL" />
       <updated>1718982585547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update: Collected all src in one project">
+      <option name="closed" value="true" />
+      <created>1718992202679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718992202680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added input validation" />
     <MESSAGE value="Add codes-n-tests to practice tests" />
     <MESSAGE value="Update Byte -&gt; UByte" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Byte -&gt; UByte" />
+    <MESSAGE value="Update: Collected all src in one project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Collected all src in one project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codes_n_tests$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1718985279968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
