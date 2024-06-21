@@ -5,11 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Update Byte -&gt; UByte">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-world/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../nullable-n-null/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numbers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../numbers/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playground/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../playground/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/Codes-N-Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/Nullable-N-Null.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/Numbers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/Playground.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Codes-N-Tests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Nullable-N-Null.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Playground.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nullable-n-null/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numbers/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playground/src/main/kotlin/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +119,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.Build codes-n-tests.executor": "Run",
     "Gradle.PersonTest.executor": "Run",
     "JUnit.PersonTest (1).executor": "Run",
     "JUnit.PersonTest (2).executor": "Run",
     "JUnit.PersonTest.executor": "Run",
+    "Kotlin.Codes_N_TestsKt.executor": "Run",
+    "Kotlin.HelloKt.executor": "Run",
     "Kotlin.MainKt.executor": "Coverage",
+    "Kotlin.Nullable_N_NullKt.executor": "Run",
+    "Kotlin.NumbersKt.executor": "Run",
     "Kotlin.PersonTestKt.executor": "Run",
+    "Kotlin.PlaygroundKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -157,6 +226,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added input validation" />
     <MESSAGE value="Add codes-n-tests to practice tests" />
     <MESSAGE value="Update Byte -&gt; UByte" />
