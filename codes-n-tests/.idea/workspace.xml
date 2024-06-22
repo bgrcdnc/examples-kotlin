@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Update: Collected all src in one project">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" afterDir="false" />
     </list>
@@ -22,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -40,15 +43,6 @@
     &quot;accountId&quot;: &quot;02df2fe3-1a3f-453b-9566-53c686ac9750&quot;
   }
 }</component>
-  <component name="GroovyConsoleState">
-    <option name="list">
-      <list>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-        </Entry>
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -69,6 +63,7 @@
     "JUnit.PersonTest (1).executor": "Run",
     "JUnit.PersonTest (2).executor": "Run",
     "JUnit.PersonTest.executor": "Run",
+    "Kotlin.Char_StuffKt.executor": "Run",
     "Kotlin.Codes_N_TestsKt.executor": "Run",
     "Kotlin.HelloKt.executor": "Run",
     "Kotlin.MainKt.executor": "Coverage",
@@ -99,7 +94,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NumbersKt">
+  <component name="RunManager">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codes-n-tests.test" />
       <option name="PACKAGE_NAME" value="" />
