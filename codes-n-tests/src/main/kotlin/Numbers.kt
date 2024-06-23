@@ -1,7 +1,5 @@
 package org.example
 
-fun printType(value: Any) = println("value '$value' is '${value::class.simpleName}'")
-
 fun main() {
     println(" ---- Boxed && Unboxed ---- ")
     val number: Int = 127 // int
