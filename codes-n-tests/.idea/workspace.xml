@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Finalize Numbers.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" afterDir="false" />
+    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Misc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Char_StuffKt">
+  <component name="RunManager" selected="Kotlin.BooleanKt">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codes-n-tests.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -138,8 +136,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Char_StuffKt" />
         <item itemvalue="Kotlin.BooleanKt" />
+        <item itemvalue="Kotlin.Char_StuffKt" />
         <item itemvalue="JUnit.PersonTest" />
       </list>
     </recent_temporary>
@@ -201,7 +199,47 @@
       <option name="project" value="LOCAL" />
       <updated>1719065400203</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fun stuff with hex strings">
+      <option name="closed" value="true" />
+      <created>1719150529238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150529238</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Utils.kt to collect useful materials">
+      <option name="closed" value="true" />
+      <created>1719150555225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150555225</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update Numbers.kt to be compatible with Utils.kt">
+      <option name="closed" value="true" />
+      <created>1719150579904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150579904</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Boolean fun">
+      <option name="closed" value="true" />
+      <created>1719150588858</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150588858</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Misc">
+      <option name="closed" value="true" />
+      <created>1719150594205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719150594205</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +261,12 @@
     <MESSAGE value="Update: Collected all src in one project" />
     <MESSAGE value="Initial commit for Char-Stuff.kt" />
     <MESSAGE value="Finalize Numbers.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalize Numbers.kt" />
+    <MESSAGE value="Fun stuff with hex strings" />
+    <MESSAGE value="Added Utils.kt to collect useful materials" />
+    <MESSAGE value="Update Numbers.kt to be compatible with Utils.kt" />
+    <MESSAGE value="Boolean fun" />
+    <MESSAGE value="Misc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Misc" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codes_n_tests$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1718985279968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
