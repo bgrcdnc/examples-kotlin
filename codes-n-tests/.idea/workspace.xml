@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Update: Collected all src in one project">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" afterDir="false" />
+    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Finalize Numbers.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -63,6 +65,7 @@
     "JUnit.PersonTest (1).executor": "Run",
     "JUnit.PersonTest (2).executor": "Run",
     "JUnit.PersonTest.executor": "Run",
+    "Kotlin.BooleanKt.executor": "Run",
     "Kotlin.Char_StuffKt.executor": "Run",
     "Kotlin.Codes_N_TestsKt.executor": "Run",
     "Kotlin.HelloKt.executor": "Run",
@@ -78,7 +81,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.toDoOptions"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -94,13 +97,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Char_StuffKt">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codes-n-tests.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooleanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BooleanKt" />
+      <module name="codes-n-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Char_StuffKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Char_StuffKt" />
+      <module name="codes-n-tests.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,9 +133,13 @@
     <list>
       <item itemvalue="JUnit.PersonTest" />
       <item itemvalue="Kotlin.NumbersKt" />
+      <item itemvalue="Kotlin.BooleanKt" />
+      <item itemvalue="Kotlin.Char_StuffKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Char_StuffKt" />
+        <item itemvalue="Kotlin.BooleanKt" />
         <item itemvalue="JUnit.PersonTest" />
       </list>
     </recent_temporary>
@@ -164,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718992202680</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit for Char-Stuff.kt">
+      <option name="closed" value="true" />
+      <created>1719065384636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719065384636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finalize Numbers.kt">
+      <option name="closed" value="true" />
+      <created>1719065400203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719065400203</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +221,9 @@
     <MESSAGE value="Add codes-n-tests to practice tests" />
     <MESSAGE value="Update Byte -&gt; UByte" />
     <MESSAGE value="Update: Collected all src in one project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Collected all src in one project" />
+    <MESSAGE value="Initial commit for Char-Stuff.kt" />
+    <MESSAGE value="Finalize Numbers.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalize Numbers.kt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codes_n_tests$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1718985279968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
