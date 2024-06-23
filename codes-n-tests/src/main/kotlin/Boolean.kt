@@ -1,5 +1,6 @@
 package org.example
 
+
 fun main() {
 //    Boolean
     println(" ---- Boolean ----")
@@ -9,14 +10,11 @@ fun main() {
 
     printType(isMale)
     printType(isFemale)
-    // printType(isGenderFluid) -> nullable, so...
-    printTypeTemplate("isGenderFluid", "Boolean?")
+    printTypeNullable(isGenderFluid)
 
     println()
 
-    println(
-        "isMale: $isMale\n" +
-        "isFemale: $isFemale\n" +
-        "isGenderFluid: $isGenderFluid"
-    )
+    printVariable("isMale", isMale)
+    printVariable("isFemale", isFemale)
+    printNullableVariable("isGenderFluid", isGenderFluid)
 }
