@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Misc">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Update Arrays.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_6_Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_4_Boolean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Char-Stuff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_3_Char-Stuff.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Codes-N-Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_y_Codes-N-Tests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_7_Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_1_Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Nullable-N-Null.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_5_Nullable-N-Null.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_2_Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Playground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/_x_Playground.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +44,12 @@
     &quot;assignee&quot;: &quot;bgrcdnc&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/bgrcdnc/examples-kotlin&quot;,
-    &quot;accountId&quot;: &quot;02df2fe3-1a3f-453b-9566-53c686ac9750&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bgrcdnc/examples-kotlin",
+    "accountId": "ddb199f0-eea0-4c92-9bdc-8d6f56e36336"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -101,7 +104,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysKt">
+  <component name="RunManager" selected="Kotlin._6_ArraysKt">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codes-n-tests.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,56 +115,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysKt" />
-      <module name="codes-n-tests.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BooleanKt" />
-      <module name="codes-n-tests.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Char_StuffKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Char_StuffKt" />
-      <module name="codes-n-tests.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FunctionsKt" />
-      <module name="codes-n-tests.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumbersKt" type="JetRunConfigurationType" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NumbersKt" />
+    <configuration name="_2_NumbersKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._2_NumbersKt" />
       <module name="codes-n-tests.main" />
       <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_3_Char_StuffKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._3_Char_StuffKt" />
+      <module name="codes-n-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_BooleanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._4_BooleanKt" />
+      <module name="codes-n-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_6_ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._6_ArraysKt" />
+      <module name="codes-n-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_7_FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._7_FunctionsKt" />
+      <module name="codes-n-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.PersonTest" />
-      <item itemvalue="Kotlin.NumbersKt" />
-      <item itemvalue="Kotlin.ArraysKt" />
-      <item itemvalue="Kotlin.FunctionsKt" />
-      <item itemvalue="Kotlin.BooleanKt" />
-      <item itemvalue="Kotlin.Char_StuffKt" />
+      <item itemvalue="Kotlin._2_NumbersKt" />
+      <item itemvalue="Kotlin._6_ArraysKt" />
+      <item itemvalue="Kotlin._4_BooleanKt" />
+      <item itemvalue="Kotlin._3_Char_StuffKt" />
+      <item itemvalue="Kotlin._7_FunctionsKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ArraysKt" />
-        <item itemvalue="Kotlin.FunctionsKt" />
-        <item itemvalue="Kotlin.BooleanKt" />
-        <item itemvalue="Kotlin.Char_StuffKt" />
+        <item itemvalue="Kotlin._6_ArraysKt" />
+        <item itemvalue="Kotlin._7_FunctionsKt" />
+        <item itemvalue="Kotlin._4_BooleanKt" />
+        <item itemvalue="Kotlin._3_Char_StuffKt" />
         <item itemvalue="JUnit.PersonTest" />
       </list>
     </recent_temporary>
@@ -263,7 +266,63 @@
       <option name="project" value="LOCAL" />
       <updated>1719150594205</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed Colors to class type">
+      <option name="closed" value="true" />
+      <created>1720105110502</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105110502</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Arrays.kt">
+      <option name="closed" value="true" />
+      <created>1720105122050</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105122050</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated Boolean.kt">
+      <option name="closed" value="true" />
+      <created>1720105134848</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105134848</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Functions.kt">
+      <option name="closed" value="true" />
+      <created>1720105144851</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105144851</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update IDE files">
+      <option name="closed" value="true" />
+      <created>1720105159068</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105159068</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update Utils.kt">
+      <option name="closed" value="true" />
+      <created>1720113154990</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720113154990</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update Arrays.kt">
+      <option name="closed" value="true" />
+      <created>1720113160578</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720113160578</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +349,14 @@
     <MESSAGE value="Update Numbers.kt to be compatible with Utils.kt" />
     <MESSAGE value="Boolean fun" />
     <MESSAGE value="Misc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Misc" />
+    <MESSAGE value="Changed Colors to class type" />
+    <MESSAGE value="Added Arrays.kt" />
+    <MESSAGE value="Updated Boolean.kt" />
+    <MESSAGE value="Add Functions.kt" />
+    <MESSAGE value="Update IDE files" />
+    <MESSAGE value="Update Utils.kt" />
+    <MESSAGE value="Update Arrays.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Arrays.kt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codes_n_tests$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1718985279968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
