@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0aa49b0-fac6-402e-9d33-fe49c13fec8e" name="Changes" comment="Misc">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Boolean.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Utils.kt" afterDir="false" />
@@ -23,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -53,7 +57,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -63,9 +66,11 @@
     "JUnit.PersonTest (1).executor": "Run",
     "JUnit.PersonTest (2).executor": "Run",
     "JUnit.PersonTest.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BooleanKt.executor": "Run",
     "Kotlin.Char_StuffKt.executor": "Run",
     "Kotlin.Codes_N_TestsKt.executor": "Run",
+    "Kotlin.FunctionsKt.executor": "Run",
     "Kotlin.HelloKt.executor": "Run",
     "Kotlin.MainKt.executor": "Coverage",
     "Kotlin.Nullable_N_NullKt.executor": "Run",
@@ -78,6 +83,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bugra/Programming/examples/examples-kotlin/codes-n-tests",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
@@ -95,13 +101,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BooleanKt">
+  <component name="RunManager" selected="Kotlin.ArraysKt">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codes-n-tests.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysKt" />
+      <module name="codes-n-tests.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FunctionsKt" />
+      <module name="codes-n-tests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumbersKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.NumbersKt" />
       <module name="codes-n-tests.main" />
@@ -131,11 +151,15 @@
     <list>
       <item itemvalue="JUnit.PersonTest" />
       <item itemvalue="Kotlin.NumbersKt" />
+      <item itemvalue="Kotlin.ArraysKt" />
+      <item itemvalue="Kotlin.FunctionsKt" />
       <item itemvalue="Kotlin.BooleanKt" />
       <item itemvalue="Kotlin.Char_StuffKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArraysKt" />
+        <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.BooleanKt" />
         <item itemvalue="Kotlin.Char_StuffKt" />
         <item itemvalue="JUnit.PersonTest" />
