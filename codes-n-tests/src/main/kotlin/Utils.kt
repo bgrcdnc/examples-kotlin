@@ -47,8 +47,11 @@ fun printVariable(name: String, value: Any) {
     val printColor = when (value::class.simpleName.toString()) {
         "Byte", "Short", "Int", "Long" -> Colors.Foreground.Blue
         "Double", "Float" -> Colors.Foreground.Cyan
-        "Boolean" -> if (value == true) Colors.Foreground.Black + Colors.Background.Green
-                        else Colors.Foreground.Black + Colors.Background.Red
+        "Boolean" -> if (value == true) {
+            Colors.Foreground.Black + Colors.Background.Green
+        } else {
+            Colors.Foreground.Black + Colors.Background.Red
+        }
         "String" -> Colors.Foreground.Green
         "Char" -> Colors.Foreground.Magenta
         else -> Colors.Foreground.Gray
@@ -70,15 +73,17 @@ fun printNullableVariable(name: String, value: Any?) {
 }
 
 fun printType(value: Any) = println(
-    "'${Colors.Foreground.Green}$value${Colors.Reset}' " + "is " + "'${Colors.Foreground.Green}${value::class.simpleName}${Colors.Reset}'"
+    "'${Colors.Foreground.Green}${value}${Colors.Reset}' " + "is " + "'${Colors.Foreground.Green}${value::class.simpleName}${Colors.Reset}'"
 )
 
 fun printTypeNullable(value: Any?) {
-    print("'${Colors.Foreground.Green}$value${Colors.Reset}' is ")
-    when (value) {
-        null -> println("'${Colors.Foreground.Red}Nullable${Colors.Reset}'")
-        else -> println("'${Colors.Foreground.Green}${value::class.simpleName}${Colors.Reset}'")
+    val valueString = value ?: "Nullable"
+    val valueColor = if(value == null) {
+        Colors.Foreground.Red
+    } else {
+        Colors.Foreground.Blue
     }
+    print("'${Colors.Foreground.Green}${value.toString()}${Colors.Reset}' is '${valueColor}$valueString${Colors.Reset}'")
 }
 
 fun String.decodeHex(): String {
